@@ -1,7 +1,7 @@
 {
   "enabledPlugins": {
     "skill-creator@claude-plugins-official": true,
-    "my-agents@local": true,
+    "my-agents@local": false,
     "my-agents@claude-plugins-official": true,
     "discord@claude-plugins-official": true
   },
