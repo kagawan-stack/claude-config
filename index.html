@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback</title>
+  <style>
+    body { font-family: sans-serif; max-width: 500px; margin: 40px auto; padding: 0 20px; }
+    button { padding: 10px 20px; background: #0070f3; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+    button:hover { background: #0051a2; }
+    #message { margin-top: 16px; color: green; display: none; }
+  </style>
+</head>
+<body>
+  <h1>フィードバック</h1>
+  <textarea id="feedback" rows="4" style="width:100%; font-size:14px;" placeholder="ご意見をどうぞ"></textarea>
+  <br><br>
+  <button id="submit-btn" onclick="submitFeedback()">フィードバックを送る</button>
+  <p id="message">送信しました。ありがとうございます！</p>
+
+  <script>
+    function submitFeedback() {
+      const text = document.getElementById('feedback').value.trim();
+      if (!text) return alert('フィードバックを入力してください');
+      document.getElementById('message').style.display = 'block';
+      document.getElementById('feedback').value = '';
+    }
+  </script>
+</body>
+</html>

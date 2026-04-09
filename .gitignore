@@ -1,2 +1,3 @@
 .credentials.json
 settings.local.json
+node_modules/
