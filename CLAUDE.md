@@ -80,6 +80,16 @@ These are Claude Code skills (not conventional applications). Each has an `evals
 
 ---
 
+## Design Guidelines
+
+### カラールール（全資料共通）
+- **背景:** 白（#FFFFFF）を基本とする
+- **アクセントカラー:** 薄い紺・青を時たま使用する（例: #1F3864, #2E75B6, #BDD7EE）
+- 派手な色・多色使いは避ける
+- ExcelレポートおよびWebページ両方に適用する
+
+---
+
 ## Architecture Notes
 
 ### Python automation suite
