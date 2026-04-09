@@ -2,7 +2,7 @@
   "name": "claude-config",
   "version": "1.0.0",
   "description": "",
-  "main": "feedback.test.js",
+  "main": "index.html",
   "scripts": {
     "test": "jest"
   },
