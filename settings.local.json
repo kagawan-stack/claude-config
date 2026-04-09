@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude plugin:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(len\\(d[''''plugins'''']\\), ''''plugins''''\\)\")",
+      "Bash(node -e \"const d=require\\(''''/c/Users/user/.claude/plugins/marketplaces/claude-plugins-official/.claude-plugin/marketplace.json''''\\); console.log\\(d.plugins.length + '''' plugins''''\\)\")",
+      "Bash(winget install:*)",
+      "Bash(bun --version)",
+      "Bash(\"$USERPROFILE/.bun/bin/bun\" --version)",
+      "Bash(powershell -Command \"bun --version\" 2>&1)",
+      "Bash(chmod:*)",
+      "Skill(discord:configure)",
+      "Skill(update-config)",
+      "Bash(claude mcp:*)",
+      "Skill(discord:access)",
+      "Bash(bun run:*)",
+      "Bash(mkdir -p ~/.claude/channels/discord/approved)",
+      "Bash(~/.claude/channels/discord/approved/1486203816142438492)",
+      "Bash(find ~/.claude/plugins/cache/claude-plugins-official/discord -name *.json)",
+      "Bash(claude plugins:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(npx skills:*)",
+      "Bash(where gogcli:*)",
+      "Bash(gh api:*)",
+      "Bash(where gh:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(powershell.exe:*)",
+      "Read(//c/Program Files/GitHub CLI//**)",
+      "Bash(ls \"/c/Users/user/scoop/shims/gh\"*)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe api:*)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe auth:*)",
+      "Bash(git:*)",
+      "Bash(git config:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git status:*)",
+      "Bash(/c/Program Files/GitHub CLI/gh.exe repo:*)"
+    ]
+  }
+}
