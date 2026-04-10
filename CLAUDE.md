@@ -88,6 +88,10 @@ These are Claude Code skills (not conventional applications). Each has an `evals
 - 派手な色・多色使いは避ける
 - ExcelレポートおよびWebページ両方に適用する
 
+### フォントルール（全資料共通）
+- **日本語:** MS PGothic
+- **英数字:** Arial
+
 ---
 
 ## Architecture Notes
